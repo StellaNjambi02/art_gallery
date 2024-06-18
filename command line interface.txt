@@ -1,0 +1,37 @@
+
+TERMINAL
+-The terminal is a text-based interface to the operating system.
+-Command execution.
+-Access to system functions ie sudo.
+-Remote system access.:HTTP/SSH
+
+USES
+-Development and debugging
+1.Use of git for version control management.
+2.Automation and scripting.
+3.Package management.:node package manager,npm(version manager)
+4.Access to development tools-VS code.
+5.Environment setup
+
+CLI-Terminal navigation
+1.pwd-print working directory,where you are on device
+2.ls-list,different files in a location.
+color code-green:application,blue-folder that end with backslash,white-file
+3.cd-change directory/folder-has files or other folders
+  cd foldername-allows us to navigate in
+  cd .. -allows us to navigate out  
+4.touch-create files-.docx,.html
+5.rmrf-remove directories or files
+rm -f filename
+rm -rf foldername :removes folder with its files
+6.cp-copy
+7.mv-move
+8.mkdir-make directory,create directory
+
+class project assignment:create the project structure using terminal
+-NameofProject
+  -public
+  -css
+  -js
+  -assets
+  -index.html

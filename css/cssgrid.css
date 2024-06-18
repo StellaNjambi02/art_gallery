@@ -1,0 +1,60 @@
+/* give the display property grid to the container */
+/* display;property */
+.grid-container {
+    display: grid;
+    /* define rows using single quotations */
+    /* define what grid area you want seen on the row ,we use grid area names not ID name*/
+    grid-template-areas: 
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenua sidemenua bannersection bannersection bannersection sidemenub'
+    'maingallery maingallery maingallery maingallery maingallery maingallery'
+    'footersection footersection footersection footersection footersection footersection';
+    /*we repeat nav 6 times for 6 divisions */
+/* use media queries css option for responsive devices.To write diff css code for different devices */
+}
+#navsection {
+    
+    grid-area: navsection;
+}
+/* grid area is nickname */
+#bannersection {
+    
+    grid-area: bannersection;
+}
+#maingallery {
+    background-color: aquamarine;
+    grid-area: maingallery;
+}
+#footersection {
+    background-color: blueviolet;
+    grid-area: footersection;
+}
+#sidemenua {
+    background-color: rgb(204, 255, 0);
+    grid-area: sidemenua;
+}
+#sidemenub {
+    background-color: rgb(255, 0, 0);
+    grid-area: sidemenub;
+}
+/* when writing a media query position it at the very bottom of the css file */
+@media only screen and (max-width: 600px){ 
+/*body 
+{
+    background-color:red ;
+}*/
+.grid-container {
+    display: grid;
+    /* define rows using single quotations */
+    /* define what grid area you want seen on the row ,we use grid area names not ID name*/
+    grid-template-areas: 
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenua sidemenua sidemenua sidemenua sidemenua sidemenua'
+    'sidemenub sidemenub sidemenub sidemenub sidemenub sidemenub'
+    'bannersection bannersection bannersection bannersection bannersection bannersection'
+    'maingallery maingallery maingallery maingallery maingallery maingallery'
+    'footersection footersection footersection footersection footersection footersection';
+    /*we repeat nav 6 times for 6 divisions */}
+}
+/* screensiz.es to get screen sizes */
+/* use media queries css o
